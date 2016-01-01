@@ -21,3 +21,8 @@ _my kdbx is in Dropbox_
 mkdir -p $HOME/.dockerconfigs/keepass2
 docker run --rm --device=/dev/bus/usb --device=/dev/usb -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME/Dropbox:/root/Dropbox -v $HOME/.dockerconfigs/keepass2:/root/.config -e DISPLAY keepass2_keechallenge
 ```
+
+
+---
+
+As a side-note, I've largely moved on to zx2c4's pass (http://www.passwordstore.org/), but I have used KeePass2 and KeeChallenge for several years.  There are advantages to both setups.
